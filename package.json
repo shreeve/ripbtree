@@ -1,0 +1,42 @@
+{
+  "name": "ripbtree",
+  "version": "1.0.0",
+  "description": "Blazing-fast, in-memory B+ tree for TypeScript/JavaScript with ordered iteration and snapshots.",
+  "author": "David Piepgrass",
+  "contributors": [
+    {
+      "name": "Steve Shreeve",
+      "email": "steve.shreeve@gmail.com",
+      "roles": ["repository assembly", "maintenance"]
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shreeve/ripbtree.git",
+    "directory": "ripbtree"
+  },
+  "homepage": "https://github.com/shreeve/ripbtree/tree/main/ripbtree",
+  "bugs": {
+    "url": "https://github.com/shreeve/ripbtree/issues"
+  },
+  "keywords": [
+    "b+tree",
+    "btree",
+    "ordered-map",
+    "sorted",
+    "map",
+    "set",
+    "copy-on-write",
+    "snapshot"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "test:watch": "bun test --watch"
+  },
+  "engines": {
+    "bun": ">=1.0.0",
+    "node": ">=18.0.0"
+  },
+  "sideEffects": false
+}
